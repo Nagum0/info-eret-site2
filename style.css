@@ -81,3 +81,48 @@
 .footer_nav_item{
     font-size: 25px;
 }
+
+@media all and (max-width: 500px) {
+    *{
+        width: 400px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .nav_links_span{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .nav_link{
+        padding: 20px 120px;
+    }
+
+    .nav_item{
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .long_link{
+        padding: 20px 120px;
+    }
+
+    .nav_long{
+        margin-top: 45px;
+    }
+}
